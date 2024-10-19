@@ -98,6 +98,31 @@ header .menu__icon {
   background: #fff;
 }
 
+/* HERO */
+.hero .container {
+  display: flex;
+}
+
+.hero .left__side,
+.hero .right__side {
+  flex: 1;
+}
+
+.hero .left__side {
+  padding-bottom: 9.375rem;
+}
+
+.hero .right__side {
+  text-align: center;
+}
+
+.hero .right__side img {
+  width: auto;
+  height: 600px;
+}
+
+/* RESPONDIVO */
+
 @media (max-width: 820px) {
   header nav {
     display: none;
