@@ -7,3 +7,28 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter";
+  font-size: 1.125rem;
+  background-color: #141414;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 75rem;
+  padding: 0 1.25rem;
+}
+
+.logo a {
+  font-family: "Calistoga";
+  font-size: 2.375rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #fe6a0f;
+}
