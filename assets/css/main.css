@@ -189,8 +189,13 @@ header .menu__icon {
 }
 
 .search input {
+  background-image: url(../img/searchIcon.png);
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  padding-left: 50px;
 }
 .search select {
+  border-right: 20px solid transparent;
 }
 
 /* RESPONDIVO */
@@ -221,7 +226,20 @@ header .menu__icon {
     font-weight: 50px;
   }
 
+  .search {
+    padding-bottom: 30px;
+  }
+
   .hero .right__side img {
     height: 300px;
+  }
+
+  .search .search__title {
+    text-align: center;
+  }
+
+  .search .search__sides {
+    flex-direction: column;
+    gap: 20px;
   }
 }
