@@ -151,6 +151,23 @@ header .menu__icon {
   background: #ce5409;
 }
 
+/* SEARCH */
+
+.search {
+  height: 372px;
+  padding: 80px 0;
+  margin-top: -100px;
+  background-color: #1f1f1f;
+}
+
+.search .container {
+  display: flex;
+}
+
+.search .search__title {
+  max-width: 189px;
+}
+
 /* RESPONDIVO */
 
 @media (max-width: 820px) {
