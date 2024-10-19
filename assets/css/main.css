@@ -138,7 +138,6 @@ header .menu__icon {
 
 .hero .hero__btn {
   width: 280px;
-  height: 80px;
   padding: 19px 83px;
   text-decoration: none;
   background: #fe6a0f;
@@ -146,6 +145,10 @@ header .menu__icon {
   font-weight: 600;
   font-size: 18px;
   border-radius: 5px;
+}
+
+.hero__btn:hover {
+  background: #ce5409;
 }
 
 /* RESPONDIVO */
@@ -156,5 +159,27 @@ header .menu__icon {
   }
   header .menu__hamburger {
     display: flex;
+  }
+
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .container .left__side {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .hero .right__side {
+    padding-bottom: 30px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+    font-weight: 50px;
+  }
+
+  .hero .right__side img {
+    height: 300px;
   }
 }
