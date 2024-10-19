@@ -264,6 +264,21 @@ header .menu__icon {
   font-weight: bold;
   color: #fe6a0f;
 }
+
+/* footer */
+footer {
+  background-color: #1f1f1f;
+  color: #5f5f5f;
+}
+
+footer .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* RESPONDIVO */
 
 @media (max-width: 820px) {
